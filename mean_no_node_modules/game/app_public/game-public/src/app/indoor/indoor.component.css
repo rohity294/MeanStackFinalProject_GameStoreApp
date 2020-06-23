@@ -1,0 +1,17 @@
+h1 {
+  color: #1d3557;
+  text-align: center;
+  font-family: cursive;
+}
+
+div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #a8dadc;
+  color: #a8dadc;
+  font-weight: bold;
+  font-size: large;
+  padding-top: 5px;
+  padding-left: 10px;
+}

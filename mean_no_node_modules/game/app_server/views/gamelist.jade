@@ -1,0 +1,12 @@
+extends layout
+
+block content
+  ul This is my game list
+  
+  p
+    a(href='/new') +new
+  each game in games
+      li  
+        a(href=`/games/${game._id}`) #{game.name}
+        
+        

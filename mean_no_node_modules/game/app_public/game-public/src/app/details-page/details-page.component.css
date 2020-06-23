@@ -1,0 +1,74 @@
+.mt-30 {
+  margin-top:30px;
+}
+p {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: cursive;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+}
+  p span {
+    color: #185a84;
+    font-size:24px;
+    font-family:monospace;
+  }
+h1 {
+  color: darkslategray;
+  text-align: center;
+  font-family: cursive;
+}
+
+input[type=text], select, input[type=number] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #1d3557;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 22px;
+  color: #185a84;
+  ;
+  font-family: sans-serif;
+}
+
+div {
+  border-radius: 5px;
+  background-color: #a8dadc;
+  padding: 20px;
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  text-align: center;
+  font-family: cursive;
+  color: #1d3557;
+}
+
+div {
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.customLabel{
+  font-size:17px;
+  color:black;
+} 

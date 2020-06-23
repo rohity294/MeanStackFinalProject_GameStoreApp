@@ -1,0 +1,25 @@
+extends layout
+block content
+
+  #banner.page-header
+    .row
+      .col-lg-6
+        h2= pageHeader.title
+        body(style={background: '#cdf5cd'})
+  .row
+    .col-xs-12.col-sm-8
+      .row.list-group
+        each recipe in recipes
+          .col-xs-12.list-group-item
+            h4 
+              a(href="/list")= recipe.name
+              small &nbsp;        
+             
+            p.description= recipe.description
+            ul
+            li
+              tomake1= recipe.tomake1
+            li
+              tomake2= recipe.tomake2
+           
+    
